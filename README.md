@@ -51,7 +51,7 @@ Trata-se de uma aplicação de prova de conceito para aplicar Api First utilizan
   - 2° comando: ```docker-compose -f docker-compose.yml up```
   ### Criando as filas no SQS
   - ``` aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name person```
-  ### Criando as filas no SQS
+  ### Listando as mensagens da fila no SQS
   - ``` aws --endpoint-url=http://localhost:4576 sqs receive-message --queue-url http://localhost:4576/queue/person --max-number-of-messages 10 ```  
   ### Executar a aplicação
   -  ```./mvnw clean compile spring-boot:run```
