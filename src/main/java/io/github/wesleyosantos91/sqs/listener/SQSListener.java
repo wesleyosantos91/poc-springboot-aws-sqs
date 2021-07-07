@@ -18,7 +18,7 @@ import java.util.concurrent.ExecutionException;
 public class SQSListener {
 
     @SqsListener(value = "${aws.queue.name}", deletionPolicy = SqsMessageDeletionPolicy.NEVER)
-    public void listen(/*@Payload */Person person, Acknowledgment acknowledgment, @Headers Map<String, String> headers)
+    public void listen(@Payload Person person, Acknowledgment acknowledgment, @Headers Map<String, String> headers)
             throws ExecutionException, InterruptedException {
 
         log.info("Recieved Message: person = {}, headers = {}", person, headers);
