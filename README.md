@@ -11,7 +11,7 @@ Trata-se de uma aplicação de prova de conceito para aplicar Api First utilizan
 ![](https://img.shields.io/badge/Autor-Wesley%20Oliveira%20Santos-brightgreen)
 ![](https://img.shields.io/badge/Language-java-brightgreen)
 ![](https://img.shields.io/badge/Framework-springboot-brightgreen)
-![](https://img.shields.io/badge/Cloud%20Publica-AWS%20Localstack-brightgreen)
+![](https://img.shields.io/badge/Cloud%20Public-AWS%20Localstack-brightgreen)
 ![](https://img.shields.io/badge/Message%20Broker-SQS-brightgreen)
 
 </div>
