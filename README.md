@@ -6,7 +6,7 @@
 <div align="center">
 
 # POC - Localstack - AWS SQS com Springboot e Java
-Trata-se de uma aplicação de prova de conceito para aplicar Api First utilizando Spring boot e Java e Swagger
+Trata-se de uma aplicação de prova de conceito para aplicar Local stack SQS utilizando Spring boot e Java e Swagger
 
 ![](https://img.shields.io/badge/Autor-Wesley%20Oliveira%20Santos-brightgreen)
 ![](https://img.shields.io/badge/Language-java-brightgreen)
