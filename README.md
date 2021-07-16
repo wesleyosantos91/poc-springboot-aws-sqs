@@ -55,8 +55,6 @@ Trata-se de uma aplicação de prova de conceito para aplicar Local stack SQS ut
   - ``` aws --endpoint-url=http://localhost:4576 sqs receive-message --queue-url http://localhost:4576/queue/person --max-number-of-messages 10 ```  
   ### Executar a aplicação
   -  ```./mvnw clean compile spring-boot:run```
-  ### Executar testes
-  -  ```./mvnw clean compile verify sonar:sonar```
 
 ## Utilização
 - Efetuar uma requisição REST com verbo POST na seguinte URL: localhost:8081/v1/events/persons/publish
